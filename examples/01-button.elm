@@ -54,5 +54,5 @@ view model =
     [ button [ onClick Decrement ] [ text "-" ]
     , div [] [ text (toString model) ]
     , button [ onClick Increment ] [ text "+" ]
-    , button [ onClick Reset ] [ text "0" ]
+    , button [ onClick Reset ] [ text "Reset" ]
     ]
